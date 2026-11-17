@@ -1,7 +1,7 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-     background-color: rgb(22, 6, 1);
+     background-color: rgb(22, 5, 1);
       color: #333;
       background-image: url("fot1\ \(4\).jpg");
       background-size: cover;
@@ -17,7 +17,7 @@
   height: 100%;
   object-fit: cover; /* cobre toda a div */
   z-index: -1;       /* fica por trás */
-  opacity: 0.6;      /* transparência para ver melhor o conteúdo */
+  opacity: 0.5;      /* transparência para ver melhor o conteúdo */
 }
 
     /* ===== CABEÇALHO ===== */
