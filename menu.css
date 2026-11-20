@@ -7,7 +7,6 @@
       cursor: pointer;
       z-index: 2000;
     }
-
     /* Menu overlay fullscreen */
     .menu-overlay {
       position: fixed;
@@ -43,7 +42,6 @@
     .menu-overlay a:hover {
       color: #facc15;
     }
-
     /* Botão fechar */
     .close-btn {
       position: absolute;
