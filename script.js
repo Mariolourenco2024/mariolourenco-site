@@ -237,3 +237,10 @@ function greeting() {
 
 console.log(`${greeting()} Mario !`);
 
+window.addEventListener("online", () => {
+  console.log("Connexion rétablie");
+});
+
+window.addEventListener("offline", () => {
+  console.log("Connexion perdue");
+});
