@@ -30,7 +30,7 @@
       background-repeat: no-repeat;
       background-position: center;
        position: relative;
-  padding: 10px 20px;
+  padding: 11px 21px;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -43,7 +43,7 @@
     }
 
     header p {
-      margin: 5px 0;
+      margin: 6px 0;
       font-size: 1.2em;
     }
 
@@ -55,7 +55,7 @@
     }
  p{
       color: #ebe8e8;
-      font-size: 19px;
+      font-size: 20px;
      
     }
     h3{
@@ -63,7 +63,7 @@
        font-size: 25px;
     }
 
-    /* ===== MENU ===== */
+    /* MENU  */
    nav {
       background-color:#07233f;
       display: flex;
