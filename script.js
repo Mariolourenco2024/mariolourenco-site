@@ -219,3 +219,21 @@ skills.forEach((skill) => {
   console.log(`Compétence : ${skill}`);
 });
 
+function greeting() {
+
+  const hour = new Date().getHours();
+
+  if (hour < 12) {
+    return "Bonjour";
+  }
+
+  if (hour < 18) {
+    return "Bon après-midi";
+  }
+
+  return "Bonsoir";
+
+}
+
+console.log(`${greeting()} Mario !`);
+
