@@ -67,3 +67,14 @@ function updateClock() {
   clock.textContent = `${hours}:${minutes}:${seconds}`;
 }
 setInterval(updateClock, 1000);
+function updateYear() {
+
+  const year = document.getElementById("year");
+
+  if (year) {
+    year.textContent = new Date().getFullYear();
+  }
+
+}
+
+updateYear();
