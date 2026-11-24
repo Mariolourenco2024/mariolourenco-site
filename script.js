@@ -29,3 +29,19 @@ function toggleMenu() {
     menu.classList.toggle("open");
   }
 }
+
+const langBtn = document.querySelector(".lang-btn");
+const langMenu = document.querySelector(".lang-options");
+
+if (langBtn && langMenu) {
+
+  langBtn.addEventListener("click", () => {
+
+    if (langMenu.style.display === "block") {
+      langMenu.style.display = "none";
+    } else {
+      langMenu.style.display = "block";
+    }
+
+  });
+
