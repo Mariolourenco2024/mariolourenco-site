@@ -13,3 +13,8 @@ document.addEventListener("click", (e) => {
     langMenu.style.display = "none";
   }
    });
+
+// Abrir/fechar menu mobile
+function toggleMenu() {
+  document.getElementById("menu").classList.toggle("open");
+}
