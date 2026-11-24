@@ -3,3 +3,4 @@ const app = {
   version: "1.0.0",
   author: "Mario Lourenço"
 };
+console.log(`${app.name} v${app.version}`);
