@@ -154,3 +154,55 @@ if (localStorage.getItem("darkMode") === "true") {
   document.body.classList.add("dark");
 }
 
+const form = document.getElementById("contact-form");
+const status = document.getElementById("form-status");
+
+if (form && status) {
+
+  form.addEventListener("submit", async (e) => {
+
+    e.preventDefault();
+
+    const data = new FormData(form);
+
+    try {
+
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: data,
+        headers: {
+          Accept: "application/json"
+        }
+      });
+
+      if (response.ok) {
+
+        status.textContent =
+          "✅ Message envoyé avec succès.";
+
+        status.style.color = "green";
+
+        form.reset();
+
+      } else {
+
+        status.textContent =
+          "❌ Erreur lors de l'envoi.";
+
+        status.style.color = "red";
+
+      }
+
+    } catch {
+
+      status.textContent =
+        "⚠️ Problème de connexion.";
+
+      status.style.color = "orange";
+
+    }
+
+  });
+
+}
+
