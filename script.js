@@ -244,3 +244,8 @@ window.addEventListener("online", () => {
 window.addEventListener("offline", () => {
   console.log("Connexion perdue");
 });
+function init() {
+  console.log("Application démarrée");
+}
+
+init();
