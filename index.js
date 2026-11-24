@@ -35,3 +35,10 @@ form.addEventListener("submit", async (e) => {
       status.style.color = "green";
       form.reset();
     }
+
+    else {
+      status.innerHTML =
+        "❌ Une erreur est survenue. Réessayez plus tard.";
+      status.style.color = "red";
+    }
+  }
