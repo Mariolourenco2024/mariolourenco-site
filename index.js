@@ -29,3 +29,9 @@ form.addEventListener("submit", async (e) => {
         Accept: "application/json",
       },
     });
+
+     if (response.ok) {
+      status.innerHTML = "✅ Votre message a été envoyé avec succès !";
+      status.style.color = "green";
+      form.reset();
+    }
