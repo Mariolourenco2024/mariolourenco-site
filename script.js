@@ -112,3 +112,4 @@ if (backToTop) {
 
 }
 
+const typingTarget = document.getElementById("typing");
