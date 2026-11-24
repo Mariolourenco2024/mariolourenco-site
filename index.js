@@ -19,3 +19,4 @@ const status = document.getElementById("form-status");
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
+ const data = new FormData(form);
