@@ -66,4 +66,4 @@ function updateClock() {
 
   clock.textContent = `${hours}:${minutes}:${seconds}`;
 }
-
+setInterval(updateClock, 1000);
