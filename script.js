@@ -4,3 +4,4 @@ const app = {
   author: "Mario Lourenço"
 };
 console.log(`${app.name} v${app.version}`);
+// ANIMAÇÃO DE SCROLL
