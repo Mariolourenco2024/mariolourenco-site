@@ -44,4 +44,13 @@ if (langBtn && langMenu) {
     }
 
   });
+  document.addEventListener("click", (event) => {
+
+    if (!event.target.closest(".language-menu")) {
+      langMenu.style.display = "none";
+    }
+
+  });
+
+}
 
