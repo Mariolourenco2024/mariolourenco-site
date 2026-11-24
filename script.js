@@ -134,3 +134,19 @@ function typingEffect() {
 
 }
 typingEffect();
+const themeButton = document.getElementById("themeButton");
+
+if (themeButton) {
+
+  themeButton.addEventListener("click", () => {
+
+    document.body.classList.toggle("dark");
+
+    const darkEnabled =
+      document.body.classList.contains("dark");
+
+    localStorage.setItem("darkMode", darkEnabled);
+
+  });
+
+}
