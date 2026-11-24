@@ -113,3 +113,23 @@ if (backToTop) {
 }
 
 const typingTarget = document.getElementById("typing");
+const phrase =
+  "Développeur Web | JavaScript | React | Node.js";
+
+let index = 0;
+
+function typingEffect() {
+
+  if (!typingTarget) return;
+
+  if (index < phrase.length) {
+
+    typingTarget.textContent += phrase.charAt(index);
+
+    index++;
+
+    setTimeout(typingEffect, 80);
+
+  }
+
+}
