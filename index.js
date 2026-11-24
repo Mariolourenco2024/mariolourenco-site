@@ -16,3 +16,6 @@ window.addEventListener("scroll", reveal);
 window.addEventListener("load", reveal);
 const form = document.getElementById("contact-form");
 const status = document.getElementById("form-status");
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
