@@ -9,5 +9,7 @@ langBtn.addEventListener("click", () => {
 
 // Fechar ao clicar fora
 document.addEventListener("click", (e) => {
-
-                          });
+  if (!e.target.closest(".language-menu")) {
+    langMenu.style.display = "none";
+  }
+   });
