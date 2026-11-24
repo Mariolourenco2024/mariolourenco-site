@@ -133,3 +133,4 @@ function typingEffect() {
   }
 
 }
+typingEffect();
