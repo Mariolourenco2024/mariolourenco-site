@@ -20,3 +20,12 @@ function reveal() {
 }
 window.addEventListener("scroll", reveal);
 window.addEventListener("load", reveal);
+
+// MENU MOBILE
+function toggleMenu() {
+  const menu = document.getElementById("menu");
+
+  if (menu) {
+    menu.classList.toggle("open");
+  }
+}
