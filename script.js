@@ -206,3 +206,16 @@ if (form && status) {
 
 }
 
+const skills = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "React",
+  "Node.js",
+  "Git"
+];
+
+skills.forEach((skill) => {
+  console.log(`Compétence : ${skill}`);
+});
+
