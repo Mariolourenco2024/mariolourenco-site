@@ -9,3 +9,5 @@ langBtn.addEventListener("click", () => {
 
 // Fechar ao clicar fora
 document.addEventListener("click", (e) => {
+
+                          });
