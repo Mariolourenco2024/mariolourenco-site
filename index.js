@@ -14,3 +14,4 @@ function reveal() {
 }
 window.addEventListener("scroll", reveal);
 window.addEventListener("load", reveal);
+const form = document.getElementById("contact-form");
