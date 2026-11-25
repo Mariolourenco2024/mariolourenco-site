@@ -45,9 +45,9 @@
     /* Botão fechar */
     .close-btn {
       position: absolute;
-      top: 20px;
-      right: 30px;
-      font-size: 39px;
+      top: 21px;
+      right: 32px;
+      font-size: 40px;
       color: white;
       cursor: pointer;
     }
