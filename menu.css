@@ -2,7 +2,7 @@
     .menu-button {
       background: none;
       border: none;
-      font-size: 24px;
+      font-size: 30px;
       color: white;
       cursor: pointer;
       z-index: 2000;
@@ -33,7 +33,7 @@
     /* Links do menu */
     .menu-overlay a {
       color: white;
-      font-size: 28px;
+      font-size: 29px;
       margin: 15px 0;
       text-decoration: none;
       transition: color 0.4s;
