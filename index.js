@@ -35,3 +35,10 @@ form.addEventListener("submit", async (e) => {
         "❌ Une erreur est survenue. Réessayez plus tard.";
       status.style.color = "red";
     }
+     } catch (error) {
+    status.innerHTML =
+      "⚠️ Erreur de connexion. Vérifiez votre internet.";
+    status.style.color = "red";
+  }
+});
+
