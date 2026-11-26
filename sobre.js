@@ -5,6 +5,7 @@ langBtn.addEventListener("click", () => {
   langMenu.style.display =
     langMenu.style.display === "block" ? "none" : "block";
 });
+
 // Fechar ao clicar fora
 document.addEventListener("click", (e) => {
   if (!e.target.closest(".language-menu")) {
